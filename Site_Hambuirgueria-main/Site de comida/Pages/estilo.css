@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(44, 36, 36);
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    color: orange;
+}
+.menu{
+    display: flex;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 14px;
+    margin-right: 50px;
+
+}
+
+.menu ul li a{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.menu ul li a:hover{
+    background-color:orange;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 8px;
+    transform: scale(1.2);
+}
+
+
+h1p{
+    color: orange;
+    font-size: 25px;
+}
+
+p2{
+    color: white;
+    font-size: 15px;
+}
+
+.first_menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.welcome {
+    color: orange;
+    font-size: 50px;
+    padding: 5px;
+    padding-right: 58px;
+}
+
+.description {
+    color: white;
+    font-size: 25px;
+}
+
+.first_sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
